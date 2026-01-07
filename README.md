@@ -7,6 +7,7 @@ The project is designed as portfolio project, following REST principles and a cl
 ## ✨ Features
 * CRUD operations for:
   * 📦 Suppliers (finished)
+  * 💊 Medication Categories (finished)
   * 🏭 Manufacturers (finished)
   * 💉 Drugs / Medications (in progress...)
 

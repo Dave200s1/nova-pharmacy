@@ -17,3 +17,4 @@ The project is designed as portfolio project, following REST principles and a cl
 * Spring Web
 * Spring Data JPA
 * SQLite
+* Maven

@@ -30,7 +30,7 @@ The project is designed as portfolio project, following REST principles and a cl
 | `POST`    | `/api/categories/create`      | Creates a new category                |
 | `DELETE`  | `/api/categories/delete{name}`| Deletes the created category          |
 
-### The rest is simular for manufacturer and supplier 
+### The rest is similar for manufacturer and supplier 
 
 ## Test Data JSON
 POST

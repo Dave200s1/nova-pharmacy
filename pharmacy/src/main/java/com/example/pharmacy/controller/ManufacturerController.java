@@ -19,24 +19,24 @@ public class ManufacturerController {
         return "Welcome to the server";
     }
 
-    @RequestMapping(value = "/api/createmanufacturer", method = RequestMethod.POST)
+    @RequestMapping(value = "/api/manufacturer/create", method = RequestMethod.POST)
     public String createManufacturer(@RequestBody Manufacturer manufacturer){
         return manufacturerService.createManufacturer(manufacturer);
     }
 
 
-    @RequestMapping(value = "/api/readmanufacturers", method = RequestMethod.GET)
+    @RequestMapping(value = "/api/manufacturers/read", method = RequestMethod.GET)
     public List<Manufacturer> readManufacturers(){
         return manufacturerService.readManufactuerers();
     }
 
-    @RequestMapping(value = "/api/updatemanufacturers",method = RequestMethod.PUT)
+    @RequestMapping(value = "/api/manufacturers/update",method = RequestMethod.PUT)
     public String updateManufacturers(@RequestBody Manufacturer manufacturer){
         return manufacturerService.updateManufacturer(manufacturer);
     }
 
 
-    @DeleteMapping(value = "/api/deletemanufacturers/{name}")
+    @DeleteMapping(value = "/api/manufacturers/delete/{name}")
     public String deleteManufacturers(@PathVariable String name){
         return manufacturerService.deleteManufacturer(name);
     }
